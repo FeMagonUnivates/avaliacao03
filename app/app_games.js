@@ -1,5 +1,5 @@
 import { SafeAreaView } from "react-native-safe-area-context";
-import { View, Button, StyleSheet, Text, TextInput, Keyboard, Image, FlatList } from "react-native";
+import { View, Button, StyleSheet, Text, TextInput, Keyboard, FlatList } from "react-native";
 import { useState, useEffect } from "react";
 import { router } from "expo-router";
 
