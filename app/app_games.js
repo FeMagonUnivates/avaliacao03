@@ -62,6 +62,8 @@ export default function gamesApi() {
     async function carregarGames() {
         const lista = await getGames();
         setGames(lista);
+        
+        Keyboard.dismiss();
     }
 
     async function salvar() {
